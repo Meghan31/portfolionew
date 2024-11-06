@@ -5,7 +5,7 @@ import "../rive-details.scss";
 export default function GitHub() {
   const { RiveComponent } = useRive(
     {
-      src: "public/assets/rive/github.riv",
+      src: "/portfolionew/assets/rive/github.riv",
       stateMachines: "github_ani",
 
       autoplay: true,

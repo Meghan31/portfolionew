@@ -5,7 +5,7 @@ import "../rive-details.scss";
 export default function Resume() {
   const { RiveComponent } = useRive(
     {
-      src: "public/assets/rive/newbuttonrive.riv",
+      src: "/portfolionew/assets/rive/newbuttonrive.riv",
       stateMachines: "DownloadButton",
 
       autoplay: true,

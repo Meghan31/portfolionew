@@ -3,7 +3,7 @@ import { useRive } from "@rive-app/react-canvas";
 export default function Name() {
   const { rive, RiveComponent } = useRive(
     {
-      src: "public/assets/rive/name.riv",
+      src: "/portfolionew/assets/rive/name.riv",
       stateMachines: "State Machine 1",
       autoplay: true,
     },

@@ -5,7 +5,7 @@ import "../rive-details.scss";
 export default function Linkedin() {
   const { RiveComponent } = useRive(
     {
-      src: "public/assets/rive/linkedin.riv",
+      src: "/portfolionew/assets/rive/linkedin.riv",
       stateMachines: "linked_ani",
 
       autoplay: true,

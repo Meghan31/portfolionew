@@ -4,7 +4,7 @@ import "./rive-details.scss";
 export default function Face() {
   const { RiveComponent } = useRive(
     {
-      src: "public/assets/rive/newface.riv",
+      src: "/portfolionew/assets/rive/newface.riv",
       stateMachines: "face_draw",
 
       autoplay: true,
